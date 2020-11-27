@@ -1,0 +1,52 @@
+{
+  "name": "cr-auth-client",
+  "version": "0.0.1",
+  "private": true,
+  "repository": "github:konstantin-kukharev/cr-auth-client",
+  "author": {
+    "name": "Konstantin Kukharev",
+    "email": "konstantin.kukharev@gmail.com"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.0",
+    "clsx": "^1.1.1",
+    "dotenv": "^8.2.0",
+    "notistack": "^1.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "react-scripts": "4.0.0",
+    "redux": "^4.0.5",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "dev": "set REACT_APP_ENV=development & react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      "> 1%",
+      "last 2 versions",
+      "not ie <= 8"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

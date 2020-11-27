@@ -1,1 +1,1 @@
-# cr-auth-client
+# Test cr-auth application (client side)
